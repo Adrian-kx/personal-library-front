@@ -83,7 +83,7 @@ const HomePage: React.FC = () => {
   return (
     <div>
       <div style={{ marginBottom: 24 }}>
-        <Title level={2}>sistema de biblioteca pessoal</Title>
+        <Title level={2}>Sistema de biblioteca pessoal</Title>
         <Text type="secondary">
           Bem-vindo ao painel de gerenciamento da biblioteca
         </Text>
@@ -169,7 +169,7 @@ const HomePage: React.FC = () => {
             />
             <div style={{ marginTop: 16 }}>
               <Button type="link" size="small">
-                <Link to="/recommendations">View</Link>
+                <Link to="/recommendations">Ver</Link>
               </Button>
             </div>
           </Card>
